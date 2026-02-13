@@ -9,7 +9,7 @@ GameScene::GameScene()
     {
         hudFont.setScale(0.8f);
     }
-    tempo.setFillColor(sf::Color(0, 0, 102, 255));
+    tempo.setFillColor(sf::Color::Magenta);
     tempo.setPosition({ 0.f, 0.f });
     tempo.setSize(kVirtualSizeF);
 }
